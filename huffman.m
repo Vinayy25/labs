@@ -16,7 +16,7 @@ end
 [dict , avglen] = huffmandict(sym,p);
 
 for i = 1:k
-   iict{i,:}
+   dict{i,:}
 end
 hcode = huffmanenco(message,dict);
 dhsig = huffmandeco(hcode,dict);
